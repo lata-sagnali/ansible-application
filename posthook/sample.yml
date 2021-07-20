@@ -4,17 +4,5 @@ metadata:
   generateName: demo-job-post
   namespace: ansible-application
 spec:
-  tower_auth_secret: toweraccess
+  tower_auth_secret: toweraccess1
   job_template_name: Demo Job Template
-  extra_vars:
-    cost: 6.88
-    ghosts: ["inky","pinky","clyde","sue"]
-    is_enable: false
-    other_variable: foo
-    pacman: mrs
-    size: 8
-    targets_list:
-    - aaa
-    - bbb
-    - ccc
-    version: 1.23.45
