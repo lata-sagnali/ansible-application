@@ -1,7 +1,7 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  generateName: demo-job-pre
+  name: demo-job-pre
   namespace: tower
 spec:
   tower_auth_secret: toweraccess1
