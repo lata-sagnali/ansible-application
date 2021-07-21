@@ -5,5 +5,5 @@ metadata:
   name: demo-job-post
   namespace: tower
 spec: 
-  job_template_name: "Demo Job Template"
+  job_template_name: Demo_Job_Template
   tower_auth_secret: toweraccess1
